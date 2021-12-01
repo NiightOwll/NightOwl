@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'Monument_Valley_1.2-Regular';
+  src: url('Monument_Valley_1.2-Regular.eot');
+      url('Monument_Valley_1.2-Regular.eot?#') format('embedded-opentype'),
+      url('Monument_Valley_1.2-Regular.woff') format('woff'),
+      url('Monument_Valley_1.2-Regular.ttf') format('truetype');
+}
