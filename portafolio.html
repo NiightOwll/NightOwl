@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightOwl</title>
+    <link rel="icon" href="img/logo2.ico" type="image/ico" sizes="20x20">
+    <meta name = "author" content="María Alcántara">
+    <meta name="description" content="página web portafolio de arte">
+    <meta name="keywords" content="portafolio de arte, arte digital">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;500&display=swap" rel="stylesheet">
+      <!-- Latest compiled and minified CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script> 
+
+      <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+
+    
+      <link href="https://www.dafontfree.net/embed/bW9udW1lbnQtdmFsbGV5LTEyLXJlZ3VsYXImZGF0YS81MC9tLzMwNjIxL01vbnVtZW50X1ZhbGxleV8xLjItUmVndWxhci5vdGY" rel="stylesheet" type="text/css"/>
+
+
+        <!-- jQuery library para ejemplos 2,3 y 4-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <!-- Para ejemplo 4-->
+      <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+     
+
+
+    <link rel="stylesheet" href="css/estilos.css"> 
+   
+</head>
+
+<body>
+            <!-- Offcanvas Sidebar -->
+            <div class="offcanvas offcanvas-start" id="demo">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Menú </h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas">
+                
+                </button>
+              </div>
+              <div class="offcanvas-body">
+               
+                <a href="index.html"><button class="btn btn-outline-secondary text-black buttoninside" type="button">
+                  Inicio
+                </button>
+              </a>
+              <div>
+                <a href="portafolio.html"><button class="btn btn-outline-secondary text-black buttoninside" type="button">
+                  Portafolio
+                  </button>
+                  </a>
+                  </div>
+                <div>
+              <a href="proyectos.html"><button class="btn btn-outline-secondary text-black buttoninside" type="button">
+                Proyectos
+                </button>
+                </a>
+                </div>
+                <div>
+            <a href="sobremi.html"><button class="btn btn-outline-secondary text-black buttoninside" type="button">
+             Acerca
+            </button>
+            </a>
+            </div>
+            <div>
+            <a href="faq.html"><button class="btn btn-outline-secondary text-black buttoninside" type="button">
+              FAQ
+            </button>
+            </a>
+            </div>
+            <div>
+              <a href="contacto.html"><button class="btn btn-outline-secondary text-black buttoninside" type="button">
+                Contacto
+              </button>
+              </a>
+              </div>
+              </div>
+            </div>
+            
+            <!-- Button to open the offcanvas sidebar -->
+            <button class="btn btn-primary m-3 boton-fuera2" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" style="background: 0%;outline-style: none;">
+              <img src="img/bx-menu@2x.png">
+            </button> 
+            
+            <span class="ir-arriba icon-arrow-up2">
+              <img src="img/icons8-flecha-contraer-302.png">
+            </span>
+      <!-- mensaje flotante-->
+      <!--<div class="container-fluid fixed-top py-4 start-2">
+        <div class="row">
+          <div class="position-relative">
+            <div class="col-lg-3 position-absolute bottom-0 py-4 start-2">
+              <div class="alert alert-dismissible fade show ">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                <strong> Hola!</strong> si te gusta mi trabajo puedes contactarme para comisionarme
+                <a href="contacto.html" class="alert-link">Saber más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+    
+    <main style="margin-top: 5%;">
+              <!-- Seccion 4 Galeria compleja -->
+              <div class="container my-5">
+                <div class="row">
+              <div class="col-lg-12 col-sm-12 d-flex flex-wrap align-content-center">
+                <div class="mx-auto">
+                <h1>G A L E R I A </h1>
+                </div>
+              </div>
+                  </div>
+                <section id="portfolio4" class="portfolio my-5">
+                <div data-aos="fade-up">
+        
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                      <li data-filter=".todos" class="filter-active">TODOS</li>
+                      <li data-filter=".digital">ARTE DIGITAL</li>
+                      <li data-filter=".tradicional">ARTE TRADICIONAL </li>
+                      <li data-filter=".drawtober2">DRAWTOBER</li>
+                        <li data-filter=".fanart">FAN ART</li>
+                        <li data-filter=".retos">RETOS</li>
+                        <li data-filter=".otros">CONCURSOS Y COLABORACIÓN</li>
+                        <li data-filter=".comisiones">COMISIONES</li>
+                    </ul>
+                  </div>
+                </div>
+        
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        
+                  <div class="col-lg-4 col-md-6 portfolio-item digital todos drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/day 16 snake-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 16: Snakes</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/day 16 snake-22.jpg" data-gall="portfolioGallery" class="venobox" title="Day 27: Weather"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/csp2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Black Lilith</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/csp22.jpg" data-gall="portfolioGallery" class="venobox" title="Black Lilith"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital ">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/anna n bbynewt2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Anna y Newt</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/anna n bbynewt22.jpg" data-gall="portfolioGallery" class="venobox" title="Anna y Newt"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos tradicional drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Day24Folk.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 24:Folk</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Day24Folk22.jpg"  data-gall="portfolioGallery" class="venobox" title="Day 24:Folk"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos tradicional drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Day27Weather.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 27: Weather</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Day27Weather2.jpg" data-gall="portfolioGallery" class="venobox" title="Day 27: Weather"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-4 col-md-6 portfolio-item tradicional todos drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Day 15 mythology.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 15: Mythology</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Day 15 mythology2.jpg" data-gall="portfolioGallery" class="venobox" title="Day 15: Mythology"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/blessed and cursed by the gods-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Blessed and Cursed by the Gods</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/blessed and cursed by the gods-2.jpg" data-gall="portfolioGallery" class="venobox" title="Blessed and Cursed by the Gods"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital otros">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/cultura del agua-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Concurso// Cultura del Agua</h4>
+                        <p>2019</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/cultura del agua-2.jpg" data-gall="portfolioGallery" class="venobox" title="Concurso// cuidado del agua 2019 (Ganador)"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/bipper 2-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Gravity Falls// Bipper</h4>
+                        <p>2019</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/bipper 2-2.jpg" data-gall="portfolioGallery" class="venobox" title="Gravity Falls// Bipper"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-6 col-md-6 portfolio-item todos digital drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Third Eye-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 3:Third Eye</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Third Eye-21.jpg" data-gall="portfolioGallery" class="venobox" title="Day 3:Third Eye"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-6 col-md-6 portfolio-item todos digital drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/third eye22-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 3:Third Eye part 2</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/third eye-22.jpg" data-gall="portfolioGallery" class="venobox" title="Day 3:Third Eye part 2"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                
+                  <div class="col-lg-4 col-md-6 portfolio-item todos tradicional ">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Visit.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Visit</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Visit.jpg" data-gall="portfolioGallery" class="venobox" title="Visit"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos tradicional drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Day30 Fortune.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 30: Fortune </h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Day30 Fortune.jpg" data-gall="portfolioGallery" class="venobox" title="Day 30: Fortune"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos tradicional drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Day31Ghosts.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 31: Ghosts//HBD Newt </h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Day31Ghosts.jpg" data-gall="portfolioGallery" class="venobox" title="Day 31: Ghosts//HBD Newt"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/day 2 lantern -2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 2: Lantern</h4>
+                        <p>2020</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/day 2 lantern -2.jpg" data-gall="portfolioGallery" class="venobox" title="Day 2: Lantern "><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos tradicional drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Day 1 Altar.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 1: Altar </h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Day 1 Altar.jpg" data-gall="portfolioGallery" class="venobox" title="Day 1: Altar"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/goat-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Goat</h4>
+                        <p>2020</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/goat-2.jpg" data-gall="portfolioGallery" class="venobox" title="Goat"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 portfolio-item todos digital">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/ARTXX_OD_Alcántara Mendiola.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Moving Pictures</h4>
+                        <p>2020</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/ARTXX_OD_Alcántara Mendiola.jpg" data-gall="portfolioGallery" class="venobox" title="Moving Pictures"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 portfolio-item todos digital otros">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/por un bachillerato seguro-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Concurso//"Por un bachillerato seguro"</h4>
+                        <p>2018</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/por un bachillerato seguro-2.jpg" data-gall="portfolioGallery" class="venobox" title="Concurso(Ganador)//Por un bachillerato seguro"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart retos">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/dtiys22.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>DTIYS: Palxeye </h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/dtiys22.jpg" data-gall="portfolioGallery" class="venobox" title="Draw this in your style: Palxeye"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart retos">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/dtiys3-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>DTIYS: Robin from lepuqqet </h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/dtiys3-2.jpg" data-gall="portfolioGallery" class="venobox" title="Draw this in your style: lepuqqet"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart retos ">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/dtwys1.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>DTIYS:ClawCraps</h4>
+                        <p>2018</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/dtwys1.jpg" data-gall="portfolioGallery" class="venobox" title="Draw this in your style: ClawCraps"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Enid-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Ash </h4>
+                        <p>2018</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Enid-2.jpg" data-gall="portfolioGallery" class="venobox" title="Ash"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/max in the dark room-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Life is Strange//Max in the dark room</h4>
+                        <p>2017</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/max in the dark room-2.jpg" data-gall="portfolioGallery" class="venobox" title="Life is Strange//Max in the dark room"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart retos ">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/hex maniac2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Pókemon//Hex Maniac(Color Pallette Challenge)</h4>
+                        <p>2018</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/hex maniac2.jpg" data-gall="portfolioGallery" class="venobox" title="Pókemon//Hex Maniac(Color Pallette Challenge)"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 portfolio-item todos digital comisiones">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/comission 2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Comisión 2</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/comission 2.jpg" data-gall="portfolioGallery" class="venobox" title="Comisión 2"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 portfolio-item todos digital fanart">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/BostonUprising.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Overwatch League//Boston Uprising 2021 season</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/BostonUprising.jpg" data-gall="portfolioGallery" class="venobox" title="Overwatch League//Boston Uprising 2021 season"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/xochitl .jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>La belleza de la muerte</h4>
+                        <p>2019</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/xochitl.jpg" data-gall="portfolioGallery" class="venobox" title="La belleza de la muerte"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/vq2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Voodoo Queen</h4>
+                        <p>2018</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/vq2.jpg" data-gall="portfolioGallery" class="venobox" title="Voodo Queen"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/newt 22.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Wisdom(Redraw)</h4>
+                        <p>2020</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/newt 22.jpg" data-gall="portfolioGallery" class="venobox" title="Wisdom(Redraw)"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/day 9 horrorv2-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 9: Horror</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/day 9 horrorv2-2.jpg" data-gall="portfolioGallery" class="venobox" title="Day 9: Horror"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital retos">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/catrina.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Catrina(conepto: Hielo)</h4>
+                        <p>2019</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/catrina.jpg" data-gall="portfolioGallery" class="venobox" title="Catrina(conepto: Hielo)"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/H1.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Bullying</h4>
+                        <p>2019</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/H1.jpg" data-gall="portfolioGallery" class="venobox" title="How?"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/autorretrato-22.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>La Fábrica de estrellas: Autorretrato</h4>
+                        <p>2019</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/autorretrato-22.jpg" data-gall="portfolioGallery" class="venobox" title="La fábrica de estrellas: inspirado en el estilo de Remedios Varo"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Moonside-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Mother 2//Welcome to Moonside</h4>
+                        <p>2018</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Moonside-2.jpg" data-gall="portfolioGallery" class="venobox" title="Goat"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital comisiones">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Com Fati-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Comission 1 </h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Com Fati-2.jpg" data-gall="portfolioGallery" class="venobox" title="Comission 1 "><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Yurio.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Yuri!!! on Ice// Yurio</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Yurio.jpg" data-gall="portfolioGallery" class="venobox" title="Yuri!!! on Ice// Yurio"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/V .jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>BTS// V</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/V.jpg" data-gall="portfolioGallery" class="venobox" title="BTS// V"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Saber.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Fate// Saber</h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Saber.jpg" data-gall="portfolioGallery" class="venobox" title="Fate//Saber"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital otros">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/Lechón Fest2-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Póster// Lechón Fest(UG ENMSS Bachillerato de artes) </h4>
+                        <p>2019</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/Lechón Fest2-2.jpg" data-gall="portfolioGallery" class="venobox" title="Póster// Lechón Fest 2019"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital drawtober2">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/day 3 unseeling king2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Day 3: Unseeling King</h4>
+                        <p>2020</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/day 3 unseeling king2.jpg" data-gall="portfolioGallery" class="venobox" title="Day 3: Unseeling King"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital fanart">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/yuumi-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>League of Legends// Yuumi </h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/yuumi-2.jpg" data-gall="portfolioGallery" class="venobox" title="League of Legends// Yuumi"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital otros">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/die mortis 2021[1375].jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4> Póster// Die Mortis(colaboración con el maestro Miguel Hernández Perales) </h4>
+                        <p>2021</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/die mortis 2021[1375].jpg" data-gall="portfolioGallery" class="venobox" title="Póster// Die Mortis(colaboración con el maestro Miguel Hernández Perales)"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital otros">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/die mortis 2019-2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Póster// Die Mortis(colaboración con el maestro Miguel Hernández Perales)</h4>
+                        <p>2019</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/die mortis 2019-2.jpg" data-gall="portfolioGallery" class="venobox" title="Póster// Die Mortis 2019(colaboración con el maestro Miguel Hernández Perales)"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4 col-md-6 portfolio-item todos digital">
+                    <div class="portfolio-wrap">
+                      <img src="img/obras/img redux/hwv2.jpg" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Venus</h4>
+                        <p>2020</p>
+                        <div class="portfolio-links">
+                          <a href="img/obras/img redux/small img/hwv2.jpg" data-gall="portfolioGallery" class="venobox" title="Venus"><i class="bx bx-plus"></i></a>
+                          <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+        
+              </div>
+                </section>
+                </div>
+    
+    </main>
+
+  <!-- Librerías para ejemplo 4-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.1/venobox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Codigo para ejemplo 4-->
+  <script src="js/codigo.js"></script>
+</body>
+<!--Footer-->
+<div class="footer footeren"width=100%>
+  <p>©NightOwl 2021</p>
+
+  <a title="instagram" href="https://www.instagram.com/_six.exe/?hl=es" target="_blank"><img src="img/bxl-instagram@2x.png" alt="instagram" style="padding-right: 2%;"/></a>
+  <a title="facebook" href="https://www.facebook.com/Night-Owl-108617098166074" target="_blank"><img src="img/bxl-facebook@2x.png" alt="facebook" style="padding-right: 2%;"/></a>  
+  <a title="YouTube" href="https://www.youtube.com/channel/UCQh1IAVxPn2CyQBkoqf5WFw" target="_blank"><img src="img/bxl-youtube@2x.png" alt="YouTube" style="padding-right: 2%;"/></a>
+  <a title="Twitter" href="https://twitter.com/NightOwlspirit" target="_blank"><img src="img/bxl-twitter@2x.png" alt="Twitter" style="padding-right: 2%;"/></a>
+
+</div>
+</html>
